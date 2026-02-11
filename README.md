@@ -1,1 +1,1 @@
-## House predcitor ML project
+## House predictor ML project
