@@ -1,0 +1,7 @@
+[build]
+rustflags = ["-L", "/opt/homebrew/opt/xgboost/lib", "-L", "/opt/homebrew/opt/libomp/lib", "-lomp"]
+
+[env]
+XGBOOST_STATIC = "0"
+XGBOOST_LIB_DIR = "/opt/homebrew/opt/xgboost/lib"
+XGBOOST_INCLUDE_DIR = "/opt/homebrew/opt/xgboost/include"
